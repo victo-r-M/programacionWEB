@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+<link rel="stylesheet" href="principal.css"></head>
+
+<body>
+
+<h3>Formulario muy sencillo</h3>
+<!--<form action="javascript:recibeform()" method="post">-->
+<form action="./procesaform.php" method="post">
+<label for= "nombre">Escribe tu nombre: </label>
+<input type="text" name="nombre" value=""  placeholder="Escribe tu nombre" />
+<br/>
+<input type="submit" value="Enviar" />
+</form>
+
+<script type="text/javascript">
+  function recibeform(){
+    alert("Fomulario recibido");
+  }
+</script>
+
+  
+</body>
+
+</html>
