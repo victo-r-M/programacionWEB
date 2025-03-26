@@ -1,3 +1,3 @@
-<?php
-echo "Recibiendo formulario en php";
+<?php 
+	echo "Recibiendo formulario en php";
 ?>
