@@ -15,3 +15,13 @@ textarea {
 :is(input, textarea):valid {
   background: green;
 }
+
+/*para la curp*/
+#resultado {
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+#resultado.ok {
+    background-color: green;
+}
